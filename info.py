@@ -75,17 +75,17 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'earn4share.online')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '5d6505709fb29c5d45cd44c9fe75ba6c913252b8')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 200))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/how_to_down1/4"
+DOWNLOAD_TEXT_URL = "https://t.me/BhootBazar/132"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/MM_MOVIESSS"
+CAPTION_BUTTON_URL = "https://t.me/BhootBazar"
 
    # Auto Delete For Bot Sending Files #
