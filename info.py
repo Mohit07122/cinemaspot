@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28826860'))
 API_HASH = environ.get('API_HASH', '8280d8a26a8d8bd8f64e8cb57cb28366')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5808633500:AAHsHSWhH47eZ-uFPj0ax0biHtRX6myJG4M")
+BOT_TOKEN = environ.get('BOT_TOKEN', "c14c4ccb8ae211322cec362b37501e5edd689463")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -46,7 +46,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\n <b>ᴊᴏɪɴ ɴᴏᴡ: [Bhoot Bazar Movies](https://t.me/bhootbazar) \n\n Free Horror Movies: [Click Here](https://BhootBazar.online) </b>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\n <b>Free Horror Movies:(https://BhootBazar.online)</b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", " File ɴᴀᴍᴇ: <code>{file_name}</code> \n\n <b>Free Horror Movies: https://BhootBazarMovies.com </b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year}\n")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
