@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28826860'))
 API_HASH = environ.get('API_HASH', '8280d8a26a8d8bd8f64e8cb57cb28366')
-BOT_TOKEN = environ.get('BOT_TOKEN', "ffd66df75e48d5c2e0cf233718de912882a2fa38")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7080716728:AAH_lTis7Ndk2QNaywuSlA-m0Nt9H7sLaZQ")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -72,10 +72,10 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
       # URL Shortener #
 
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'earn4share.online')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c14c4ccb8ae211322cec362b37501e5edd689463')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'ffd66df75e48d5c2e0cf233718de912882a2fa38')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 5000))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 50000))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
